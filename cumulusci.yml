@@ -4,6 +4,7 @@ project:
     package:
         name: Food-Bank
         api_version: '55.0'
+        namespace: dmcumulusname
     git:
         default_branch: 'main'
     source_format: sfdx
