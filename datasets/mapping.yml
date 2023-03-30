@@ -1,0 +1,25 @@
+Insert Account:
+  sf_object: Account
+  fields:
+  - Name
+  lookups:
+    ParentId:
+      table: Account
+      after: Insert Account
+Insert Delivery__c:
+  sf_object: Delivery__c
+  fields:
+  - Scheduled_Date__c
+  - Status__c
+  lookups:
+    Supplier__c:
+      table: Account
+Insert Delivery_Item__c:
+  sf_object: Delivery_Item__c
+  fields:
+  - Food_Expiration_Date__c
+  - Food_Storage__c
+  - Name
+  lookups:
+    Delivery__c:
+      table: Delivery__c
