@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Share_manager_to_recruiter_manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share manager to recruiter manager</label>
+        <sharedTo>
+            <role>Recruiting_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Manager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vacancy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vacancies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>Candidate__c</name>
+        <relationshipLabel><!-- Vacancies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Left To Close --></label>
+        <name>DaysLeftToClose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Open --></label>
+        <name>DaysOpen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>d0</masterLabel>
+            <translation><!-- d0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d1</masterLabel>
+            <translation><!-- d1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d2</masterLabel>
+            <translation><!-- d2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d3</masterLabel>
+            <translation><!-- d3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d4</masterLabel>
+            <translation><!-- d4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Promo Description --></label>
+        <name>PromoDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Publish On Promo Site --></label>
+        <name>PublishOnPromoSite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Responsible --></label>
+        <name>Responsible__c</name>
+        <relationshipLabel><!-- Vacancies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- StartDate --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Process</masterLabel>
+            <translation><!-- In-Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <layouts>
+        <layout>Vacancy Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- List of candidates --></label>
+            <section>List of candidates</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vacancy layout for recrut</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- With button --></label>
+        <name>With_button</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

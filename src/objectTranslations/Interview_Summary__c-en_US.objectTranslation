@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Interview Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Interviews</value>
+    </caseValues>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>Candidate__c</name>
+        <relationshipLabel><!-- Interviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Interviewer --></label>
+        <name>Interviewer__c</name>
+        <relationshipLabel><!-- Interviews --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>d0</masterLabel>
+            <translation><!-- d0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d1</masterLabel>
+            <translation><!-- d1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d2</masterLabel>
+            <translation><!-- d2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d3</masterLabel>
+            <translation><!-- d3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d4</masterLabel>
+            <translation><!-- d4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,34 @@
+<!--
+ - Created by dmeli on 25.03.2021.
+ -->
+
+<aura:component description="campingList" controller="CampingListController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:handler name="addItem" event="c:addItemEvent"
+                  action="{!c.handleAddItem}"/>
+    <aura:handler name="updateItem" event="c:addItemEvent"
+                  action="{!c.handleUpdateItem}"/>
+    <aura:attribute name="items" type="Camping_Item__c[]"/>
+    <lightning:layout>
+        <lightning:layoutItem padding="around-small" size="6">
+            <c:campingListForm />
+        </lightning:layoutItem>
+    </lightning:layout>
+    <lightning:layout>
+        <lightning:layoutItem padding="around-small" size="6">
+            <c:campingListItems items="{!v.items}"/>
+        </lightning:layoutItem>
+        <lightning:layoutItem padding="around-small" size="6">
+            Put something cool here
+        </lightning:layoutItem>
+    </lightning:layout>
+<!--    <section class="slds-card__body">-->
+<!--        <div id="list" class="row">-->
+<!--            <aura:iteration items="{!v.items}" var="items">-->
+<!--                <c:campingListItem item="{!item}"/>-->
+<!--            </aura:iteration>-->
+<!--        </div>-->
+<!--    </section>-->
+</aura:component>
+
+

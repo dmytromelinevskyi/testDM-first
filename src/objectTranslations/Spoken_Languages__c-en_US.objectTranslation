@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Spoken Languages</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Languages</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interview --></label>
+        <name>Interview__c</name>
+        <relationshipLabel><!-- Languages --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation><!-- Russian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukrainian</masterLabel>
+            <translation><!-- Ukrainian --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Used --></label>
+        <name>LastUsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beginner</masterLabel>
+            <translation><!-- Beginner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate</masterLabel>
+            <translation><!-- Intermediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native</masterLabel>
+            <translation><!-- Native --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Intermediate</masterLabel>
+            <translation><!-- Pre-Intermediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proficiency</masterLabel>
+            <translation><!-- Proficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upper-Intermediate</masterLabel>
+            <translation><!-- Upper-Intermediate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Months Since Last Use --></label>
+        <name>MonthsSinceLastUse__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

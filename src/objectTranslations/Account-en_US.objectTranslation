@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Prospect Rating</value>
+        </caseValues>
+        <name>rating_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Amount Until Next Tier --></label>
+        <name>Amount_Until_Next_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Description --></label>
+        <name>Data_Quality_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Quality Score --></label>
+        <name>Data_Quality_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Does this customer have a current support plan? Check this box when you sell a support plan to this customer. --></help>
+        <label><!-- Has Support Plan --></label>
+        <name>Has_Support_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Billing Address --></label>
+        <name>Match_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Contacts --></label>
+        <name>Number_of_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Value --></label>
+        <name>Potential_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- In which region is the customer based? --></help>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sum of Opportunities --></label>
+        <name>Sum_of_Opportunities__c</name>
+    </fields>
+    <fields>
+        <help><!-- When is the current support plan due for renewal? --></help>
+        <label><!-- Support Plan Expiration Date --></label>
+        <name>Support_Plan_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- When did the current support plan begin? --></help>
+        <label><!-- Support Plan Start Date --></label>
+        <name>Support_Plan_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Tier --></label>
+        <name>Support_Tier__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Top Account --></label>
+        <name>Top_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Spending --></label>
+        <name>Total_Spending__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- In which zone is this customer based? Depends on region. --></help>
+        <label><!-- Zone --></label>
+        <name>Zone__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribbean</masterLabel>
+            <translation><!-- Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central America</masterLabel>
+            <translation><!-- Central America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Canada</masterLabel>
+            <translation><!-- Central Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Asia</masterLabel>
+            <translation><!-- East Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Coast</masterLabel>
+            <translation><!-- East Coast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East</masterLabel>
+            <translation><!-- Middle East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest US</masterLabel>
+            <translation><!-- Midwest US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountains and the West</masterLabel>
+            <translation><!-- Mountains and the West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northeast US</masterLabel>
+            <translation><!-- Northeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Canada</masterLabel>
+            <translation><!-- Northern Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceania</masterLabel>
+            <translation><!-- Oceania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast Asia</masterLabel>
+            <translation><!-- Southeast Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast US</masterLabel>
+            <translation><!-- Southeast US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest US</masterLabel>
+            <translation><!-- Southwest US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Prairies</masterLabel>
+            <translation><!-- The Prairies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK + Ireland</masterLabel>
+            <translation><!-- UK + Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West US</masterLabel>
+            <translation><!-- West US --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Region --></label>
+            <section>Sales Region</section>
+        </sections>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Energy Audit --></label>
+        <name>New_Energy_Audit</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- For customers and prospects --></description>
+        <label><!-- Customer Account --></label>
+        <name>Customer_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For consulting partners --></description>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Dollar value too low for this support tier --></errorMessage>
+        <name>Minimum_Spending_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- annual revenue is at least 20 times the minimum spending amount of the Gold Support Tier. --></errorMessage>
+        <name>Revenue_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter an expiration date when an account has a support plan. --></errorMessage>
+        <name>Support_plan_expiration_date_required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_Location --></label>
+        <name>Map_Location</name>
+    </webLinks>
+</CustomObjectTranslation>
